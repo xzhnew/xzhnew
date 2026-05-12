@@ -4,9 +4,9 @@
 
 <div align="center">
   <table style="border: none; border-collapse: collapse; background: linear-gradient(135deg, #1e1e2f, #2a2a40); border-radius: 20px; padding: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); max-width: 450px; width: 100%; margin: auto;">
-  <tr> 
     <img src="https://avatars.githubusercontent.com/u/179721800?v=4" alt="avatar" width="90" style="border-radius: 50%; border: 3px solid #f0b27a; margin-bottom: 10px;">    
-    <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;">   H   I   M   </h2
+    <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;">   H   I   M   </h2>
+    <tr>
       <td style="border: none; text-align: left; color: #f5f5f5; padding: 5px 15px;">
         <p style="font-family: 'Courier New', monospace; font-size: 15px; margin: 10px 0 5px;">正在学习</p>
         <div style="margin-bottom: 8px;">
