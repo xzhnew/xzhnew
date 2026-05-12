@@ -2,124 +2,55 @@
 
 > 我把技术栈收进一张卡片里，鼠标经过时，它会悄悄翻开。
 
-<style>
-  .folio-card-box {
-    perspective: 1000px;
-    width: 300px;
-    height: 380px;
-    margin: 0 auto 24px;
-  }
-  .folio-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
-    transform-style: preserve-3d;
-  }
-  .folio-card-box:hover .folio-card {
-    transform: rotateY(180deg);
-  }
-  .folio-face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
-  }
-  .folio-front {
-    background: linear-gradient(145deg, #1f1f1f, #2c2c2c);
-    color: #f0f0f0;
-  }
-  .folio-back {
-    background: #f8f6f2;
-    color: #333;
-    transform: rotateY(180deg);
-    box-sizing: border-box;
-    padding: 28px 22px;
-    text-align: left;
-    align-items: flex-start;
-    font-family: 'Georgia', 'KaiTi', serif;
-  }
-  .folio-back h3 {
-    margin: 0 0 16px;
-    font-size: 18px;
-    border-bottom: 1px solid #d0cfcf;
-    padding-bottom: 8px;
-    width: 100%;
-  }
-  .folio-back ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    line-height: 2.2;
-    font-size: 15px;
-  }
-  .folio-back ul li::before {
-    content: "▸ ";
-  }
-  .folio-back a {
-    display: inline-block;
-    margin-top: 20px;
-    background: #2c2c2c;
-    color: white;
-    padding: 8px 24px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    transition: background 0.3s;
-    align-self: center;
-  }
-  .folio-back a:hover {
-    background: #4a4a4a;
-  }
-  .folio-front img {
-    border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.3);
-    margin-bottom: 14px;
-  }
-  .folio-front .quote {
-    font-style: italic;
-    letter-spacing: 1px;
-    font-size: 15px;
-    padding: 0 12px;
-  }
-  .folio-front .hint {
-    color: #aaa;
-    font-size: 12px;
-    margin-top: 8px;
-  }
-</style>
-
-<div class="folio-card-box">
-  <div class="folio-card">
-    <!-- 正面 -->
-    <div class="folio-face folio-front">
-      <!-- 换成你自己的头像地址 -->
-      <img src="https://avatars.githubusercontent.com/u/583231?v=4" width="80" alt="头像" />
-      <div class="quote">“ 寂静在生长，代码在发光 ”</div>
-      <div class="hint">⏤ 天边云彩，变幻莫测。 ⏤</div>
-    </div>
-    <!-- 背面 -->
-    <div class="folio-face folio-back">
-      <h3>正在学习</h3>
-      <ul>
-        <li>▸ HTML </li>
-        <li>▸ CSS </li>
-        <li>▸ JavaScript </li>
-        <li>▸ Git </li>
-        <li>▸ Hexo </li>
-      </ul>
-      <a href="https://xzhnew.github.io">进入我的文字</a>
-    </div>
-  </div>
+<div align="center">
+  <table style="border: none; border-collapse: collapse; background: linear-gradient(135deg, #1e1e2f, #2a2a40); border-radius: 20px; padding: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); max-width: 450px; width: 100%; margin: auto;">
+    <tr>
+      <td style="border: none; text-align: center;">
+        <!-- 把 src 里的 123456 换成你的 GitHub 数字 ID，或者直接用你喜欢的头像直链 -->
+        <img src="https://avatars.githubusercontent.com/u/123456?v=4" alt="avatar" width="90" style="border-radius: 50%; border: 3px solid #f0b27a; margin-bottom: 10px;">
+        <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;"> H I M </h2>
+        <p style="color: #aaa; font-size: 14px; margin: 2px 0;">经验：<span style="color: #f0b27a; font-weight: bold;"> 16</span></p>
+        <div style="width: 80%; height: 8px; background: #333; border-radius: 10px; margin: 10px auto 15px;">
+          <div style="width: 72%; height: 8px; background: #f0b27a; border-radius: 10px;"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="border: none; text-align: left; color: #f5f5f5; padding: 5px 15px;">
+        <p style="font-family: 'Courier New', monospace; font-size: 15px; margin: 10px 0 5px;">属性</p>
+        <div style="margin-bottom: 8px;">
+          <span style="color: #e06c75;">HTML</span>
+          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
+            <div style="width: 90%; height: 6px; background: #e06c75; border-radius: 5px;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom: 8px;">
+          <span style="color: #61afef;">CSS</span>
+          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
+            <div style="width: 75%; height: 6px; background: #61afef; border-radius: 5px;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <span style="color: #e5c07b;">JavaScript</span>
+          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
+            <div style="width: 40%; height: 6px; background: #e5c07b; border-radius: 5px;"></div>
+          </div>
+        </div>
+        <p style="font-family: 'Courier New', monospace; font-size: 15px; margin: 10px 0 5px;">物品</p>
+        <p style="font-size: 13px; margin: 5px 0;">
+          <span style="background: #444; padding: 2px 8px; border-radius: 10px; margin-right: 5px;">Hexo</span>
+          <span style="background: #444; padding: 2px 8px; border-radius: 10px; margin-right: 5px;">Git</span>
+          <span style="background: #444; padding: 2px 8px; border-radius: 10px;">Figma</span>
+        </p>
+        <div style="text-align: center; margin-top: 20px;">
+          <!-- 这里就是你的博客传送门 -->
+          <a href="https://xzhnew.github.io" style="display: inline-block; background: #f0b27a; color: #1e1e2f; text-decoration: none; padding: 8px 20px; border-radius: 20px; font-weight: bold; font-family: 'Courier New', monospace;"> 新世界传送门 </a>
+        </div>
+        <p style="text-align: center; color: #666; font-size: 12px; margin-top: 15px; font-style: italic;">“代码是写给人看的，顺带能在机器上跑的。”</p>
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 ---
 
