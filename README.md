@@ -8,11 +8,7 @@
       <td style="border: none; text-align: center;">
         <!-- 把 src 里的 123456 换成你的 GitHub 数字 ID，或者直接用你喜欢的头像直链 -->
         <img src="https://avatars.githubusercontent.com/u/179721800?v=4" alt="avatar" width="90" style="border-radius: 50%; border: 3px solid #f0b27a; margin-bottom: 10px;">
-        <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;">   H   I   M   </h2>
-        <p style="color: #aaa; font-size: 14px; margin: 2px 0;">经验：<span style="color: #f0b27a; font-weight: bold;"> 18</span></p>
-        <div style="width: 80%; height: 8px; background: #333; border-radius: 10px; margin: 10px auto 15px;">
-          <div style="width: 72%; height: 8px; background: #f0b27a; border-radius: 10px;"></div>
-        </div>
+        <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;">   H   I   M   </h2
       </td>
     </tr>
     <tr>
