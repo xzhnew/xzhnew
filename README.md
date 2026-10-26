@@ -7,34 +7,6 @@
     <tr>
       <img src="https://avatars.githubusercontent.com/u/179721800?v=4" alt="avatar" width="90" style="border-radius: 50%; border: 3px solid #f0b27a; margin-bottom: 10px;">    
       <h2 style="color: #f5f5f5; font-family: 'Courier New', monospace; margin: 5px 0;">   H   I   M   </h2>
-      <td style="border: none; text-align: left; color: #f5f5f5; padding: 5px 15px;">
-        <p style="font-family: 'Courier New', monospace; font-size: 15px; margin: 10px 0 5px;">正在学习</p>
-        <div style="margin-bottom: 8px;">
-          <span style="color: #e06c75;">▸ HTML</span>
-          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
-            <div style="width: 90%; height: 6px; background: #e06c75; border-radius: 5px;"></div>
-          </div>
-        </div>
-        <div style="margin-bottom: 8px;">
-          <span style="color: #61afef;">▸ CSS</span>
-          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
-            <div style="width: 75%; height: 6px; background: #61afef; border-radius: 5px;"></div>
-          </div>
-        </div>
-        <div style="margin-bottom: 15px;">
-          <span style="color: #e5c07b;">▸ JavaScript</span>
-          <div style="width: 100%; height: 6px; background: #333; border-radius: 5px; margin: 3px 0;">
-            <div style="width: 40%; height: 6px; background: #e5c07b; border-radius: 5px;"></div>
-          </div>
-        </div>
-        <p style="font-family: 'Courier New', monospace; font-size: 15px; margin: 10px 0 5px;">大概了解</p>
-        <p style="font-size: 13px; margin: 5px 0;">
-          <span style="background: #444; padding: 2px 8px; border-radius: 10px; margin-right: 5px;"> Hexo </span>
-          <span style="background: #444; padding: 2px 8px; border-radius: 10px; margin-right: 5px;"> Git </span>
-          <span style="background: #444; padding: 2px 8px; border-radius: 10px;"> Figma </span>
-        </p>
-        <p style="text-align: center; color: #666; font-size: 12px; margin-top: 15px; font-style: italic;">“代码是写给人看的，顺带能在机器上跑的。”</p>
-      </td>
     </tr>
   </table>
 </div>
